@@ -1,0 +1,170 @@
+
+body{
+    margin: 0;
+    color: #F2F2F2;
+}
+header{
+    display: flex;
+    height: 300px;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/background_modified.jpg");
+    background-size: cover;
+    background-position: 50% 78%;
+    color: #F2F2F2;
+}
+#header_content{
+    width: 50%;
+    margin: auto;
+    min-width: 600px;
+}
+ul{
+    /* width: 50%; */
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+li{
+    width: 50px;
+    height: 50px;
+}
+
+#about_me{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    background-color:#595959;
+}
+article{
+    /* background-color: yellowgreen; */
+   
+    padding: 60px;
+}
+.flex{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: justify;
+
+    align-items: center;
+}
+.about_img{
+    background-image: url("../img/profil.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    /* background-color: cyan; */
+}
+#abilities{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #262626;
+}
+#abilities article{
+
+    /* background-color:rgb(151, 4, 11); */
+}
+.grid{
+    background-color: dimgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.abilities_icons{
+    
+    padding: 15px;
+    grid-gap: 10px;
+    color: whitesmoke;
+
+}
+.abilities_icons_content{
+    background-color: rgba(0,0,0,0.7);
+   padding: 10px;
+}
+#portfolio{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color:#595959;
+}
+#portfolio article{
+
+/* background-color: violet; */
+}
+
+.portfolio_img{
+    background-size: cover;
+    background-position: center;
+}
+
+#projet1{
+    background-image: url("../img/random2.jpg");
+}
+#projet2{
+    background-image: url("../img/onepageScreenshot.jpg");
+    
+}
+#projet3{
+    background-image: url("../img/random.jpg");
+    
+}
+#projet4{
+    background-image: url("../img/error.jpg");
+    
+}
+#projet5{
+    background-image: url("../img/random3.jpg");
+    
+}
+#projet6{
+    background-image: url("../img/vcard.jpg");
+    
+}
+
+#contact_me{
+    display: flex;
+    height: 200px;
+}
+.button{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    background-color:    coral;
+    width: 150px;
+    text-align: center;
+    color:whitesmoke;
+}
+.signature{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: -0.09em;
+    font-weight: bold;
+    display: block;
+    margin-left:0em;
+    margin-top:0.86em;
+    display: inline-block;
+          font-size: 7em;
+          background: linear-gradient(205deg, #262626 50%, whitesmoke 50%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          transform: rotate(-25deg);
+}
+
+.signature_content{
+    margin: 0px;
+}
+.decale{
+    margin-left: 0.4em;
+    margin-top: -0.5em;
+}
+#finish{
+     background-color: #262626;
+
+    height: 150px;
+}
+
+
+
